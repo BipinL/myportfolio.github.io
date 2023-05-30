@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>iPortfolio Bootstrap Template - Index</title>
+    <title>My portfolio</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="/assets/img/favicon.png" rel="icon">
-    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    {{-- <link href="/assets/img/favicon.png" rel="icon"> --}}
+    {{-- <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> --}}
 
     <!-- Google Fonts -->
     <link
@@ -52,8 +52,10 @@
                 <h1 class="text-light"><a href="index.html">Bipin Limbu</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.facebook.com/bipin.limbu.520/" class="facebook"><i
+                            class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/lim.bipin/" class="instagram"><i
+                            class="bx bxl-instagram"></i></a>
                     <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
@@ -228,7 +230,7 @@
 
                     <div class="col-lg-6" data-aos="fade-up">
                         <div class="progress">
-                            <span class="skill">Flutter <i class="val">100%</i></span>
+                            <span class="skill">Flutter <i class="val">99%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -244,7 +246,7 @@
                         </div>
 
                         <div class="progress">
-                            <span class="skill">CSS <i class="val">90%</i></span>
+                            <span class="skill">CSS <i class="val">80%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
                                     aria-valuemax="100"></div>
@@ -294,7 +296,7 @@
 
                 <div class="section-title">
                     <h2>Resume</h2>
-                    <p></p>
+                    <p>Experienced mobile and app developer with over two years of hands-on experience.</p>
                 </div>
 
                 <div class="row">
@@ -302,34 +304,33 @@
                         <h3 class="resume-title">Sumary</h3>
                         <div class="resume-item pb-0">
                             <h4>Bipin Limbu</h4>
-                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing
-                                    and developing user-centered digital/print marketing material from initial concept
-                                    to final, polished deliverable.</em></p>
+                            <p><em>My expertise lies in leveraging the power of Flutter to build cross-platform mobile
+                                    applications using backend as Laravel with a focus on creating smooth and engaging
+                                    user experiences.</em></p>
                             <ul>
-                                <li>Portland par 127,Orlando, FL</li>
-                                <li>(123) 456-7891</li>
-                                <li>alice.barkley@example.com</li>
+                                <li>Dharan, Nepal</li>
+                                <li>9824349478</li>
+                                <li>limsbipin.np@gmail.com</li>
                             </ul>
                         </div>
 
                         <h3 class="resume-title">Education</h3>
                         <div class="resume-item">
-                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2015 - 2016</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
-                                voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                            <h4>Schooling from Taplejung &amp; </h4>
+                            <p><em>Shree saraswati secondary school,hangpang</em></p>
+                            {{-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
+                                voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> --}}
                         </div>
                         <div class="resume-item">
-                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2010 - 2014</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
+                            <h4>Bachelor in electronics communication and information technology&amp; </h4>
+                            <h5>2019 - 2023</h5>
+                            <p><em>Institute of engineering purwanchal campus, dharan</em></p>
+                            {{-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
                                 ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
-                                consequatur neque etlon sader mart dila</p>
+                                consequatur neque etlon sader mart dila</p> --}}
                         </div>
                     </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    {{-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="resume-title">Professional Experience</h3>
                         <div class="resume-item">
                             <h4>Senior graphic design specialist</h4>
@@ -359,7 +360,7 @@
                                     managers</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
 
             </div>
@@ -499,47 +500,50 @@
 
                 <div class="section-title">
                     <h2>Services</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>As a mobile app developer, I provide innovative and user-friendly solutions tailored to my
+                        clients' needs, ensuring seamless experiences across iOS and Android platforms. As a web
+                        developer, I create visually stunning and functional websites that engage visitors and drive
+                        business growth. Additionally, as a designer, I combine my technical expertise with a keen eye
+                        for aesthetics to deliver captivating designs that elevate brands and leave a lasting
+                        impression.</p>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                         <div class="icon"><i class="bi bi-briefcase"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p>
+                        <h4 class="title"><a href="">Mobile app development</a></h4>
+                        {{-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                            excepturi sint occaecati cupiditate non provident</p> --}}
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="bi bi-card-checklist"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat tarad limino ata</p>
+                        <h4 class="title"><a href="">Mobile app design</a></h4>
+                        {{-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat tarad limino ata</p> --}}
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bi bi-bar-chart"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                            dolore eu fugiat nulla pariatur</p>
+                        <h4 class="title"><a href="">Web development</a></h4>
+                        {{-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla pariatur</p> --}}
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bi bi-binoculars"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id est laborum</p>
+                        <h4 class="title"><a href="">Web design</a></h4>
+                        {{-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id est laborum</p> --}}
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bi bi-brightness-high"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                            blanditiis praesentium voluptatum deleniti atque</p>
+                        <h4 class="title"><a href="">News portal</a></h4>
+                        {{-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum deleniti atque</p> --}}
                     </div>
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                         <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
-                            tempore, cum soluta nobis est eligendi</p>
+                        <h4 class="title"><a href="">Api</a></h4>
+                        {{-- <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+                            tempore, cum soluta nobis est eligendi</p> --}}
                     </div>
                 </div>
 
@@ -547,7 +551,7 @@
         </section><!-- End Services Section -->
 
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
+        {{-- <section id="testimonials" class="testimonials section-bg">
             <div class="container">
 
                 <div class="section-title">
@@ -645,7 +649,7 @@
                 </div>
 
             </div>
-        </section><!-- End Testimonials Section -->
+        </section><!-- End Testimonials Section --> --}}
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
@@ -653,9 +657,7 @@
 
                 <div class="section-title">
                     <h2>Contact</h2>
-                    {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
+                    {{-- <p></p> --}}
                 </div>
 
                 <div class="row" data-aos="fade-in">
